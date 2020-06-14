@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CollatzCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-13T14:03:23" hostname="MELIS-PC" time="0.021">
+  <properties/>
+  <testcase name="even and odd steps" classname="CollatzCalculatorTest" time="0.018"/>
+  <testcase name="invalid input | zero" classname="CollatzCalculatorTest" time="0.0"/>
+  <testcase name="divide if even" classname="CollatzCalculatorTest" time="0.0"/>
+  <testcase name="invalid input | negative" classname="CollatzCalculatorTest" time="0.0"/>
+  <testcase name="zero steps for 1" classname="CollatzCalculatorTest" time="0.0"/>
+  <testcase name="large number of even and odd steps" classname="CollatzCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

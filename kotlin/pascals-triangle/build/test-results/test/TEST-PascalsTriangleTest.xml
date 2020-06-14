@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PascalsTriangleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-14T09:42:12" hostname="MELIS-PC" time="0.036">
+  <properties/>
+  <testcase name="ten rows" classname="PascalsTriangleTest" time="0.031"/>
+  <testcase name="five rows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="zero rows" classname="PascalsTriangleTest" time="0.002"/>
+  <testcase name="tree rows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="four rows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="six rows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="single row" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="two rows" classname="PascalsTriangleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

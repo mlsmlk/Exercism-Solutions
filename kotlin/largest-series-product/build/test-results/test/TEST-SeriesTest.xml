@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SeriesTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-06-13T05:49:59" hostname="MELIS-PC" time="0.042">
+  <properties/>
+  <testcase name="zeros | only" classname="SeriesTest" time="0.026"/>
+  <testcase name="corner | long source sequence" classname="SeriesTest" time="0.005"/>
+  <testcase name="reject | empty string and nonzero span" classname="SeriesTest" time="0.001"/>
+  <testcase name="span 2" classname="SeriesTest" time="0.001"/>
+  <testcase name="span 3" classname="SeriesTest" time="0.003"/>
+  <testcase name="corner | zero span on empty sequence" classname="SeriesTest" time="0.0"/>
+  <testcase name="reject | span longer than string length" classname="SeriesTest" time="0.001"/>
+  <testcase name="reject | negative span" classname="SeriesTest" time="0.0"/>
+  <testcase name="numbers in order | span 2" classname="SeriesTest" time="0.001"/>
+  <testcase name="numbers in order | span 3" classname="SeriesTest" time="0.001"/>
+  <testcase name="numbers in order | span 5" classname="SeriesTest" time="0.001"/>
+  <testcase name="corner | zero span on not empty sequence" classname="SeriesTest" time="0.0"/>
+  <testcase name="corner | span equals length" classname="SeriesTest" time="0.0"/>
+  <testcase name="zeros | dense" classname="SeriesTest" time="0.0"/>
+  <testcase name="reject | nondigits in source sequence" classname="SeriesTest" time="0.0"/>
+  <system-out><![CDATA[result0
+result0
+result0
+result882
+result882
+result1764
+result8820
+result4410
+result630
+result1890
+result810
+result0
+result0
+result0
+result0
+result0
+result0
+result3888
+result1296
+result1296
+result1620
+result180
+result180
+result180
+result540
+result1890
+result1512
+result6048
+result12096
+result8064
+result6720
+result6720
+result6720
+result11760
+result23520
+result7840
+result4704
+result3360
+result4200
+result1800
+result1800
+result8100
+result2700
+result4860
+result3888
+result11664
+result8748
+result3888
+result35
+result42
+result48
+result0
+result0
+result2
+result4
+result12
+result0
+result0
+result112
+result168
+result216
+result135
+result270
+result120
+result0
+result2
+result6
+result12
+result20
+result30
+result42
+result56
+result72
+result0
+result6
+result24
+result60
+result120
+result210
+result336
+result504
+result0
+result120
+result720
+result2520
+result6720
+result15120
+result18
+result0
+result0
+result0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

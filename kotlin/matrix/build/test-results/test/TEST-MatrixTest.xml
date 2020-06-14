@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MatrixTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-12T10:20:56" hostname="MELIS-PC" time="0.045">
+  <properties/>
+  <testcase name="extract row from one number matrix" classname="MatrixTest" time="0.026"/>
+  <testcase name="extract column from one number matrix" classname="MatrixTest" time="0.003"/>
+  <testcase name="extract row from matrix" classname="MatrixTest" time="0.011"/>
+  <testcase name="extract column from non square matrix" classname="MatrixTest" time="0.0"/>
+  <testcase name="extract column matrix" classname="MatrixTest" time="0.0"/>
+  <testcase name="extract row from diff widths matrix" classname="MatrixTest" time="0.0"/>
+  <testcase name="extract row from square matrix" classname="MatrixTest" time="0.0"/>
+  <testcase name="extract column from diff widths matrix" classname="MatrixTest" time="0.001"/>
+  <system-out><![CDATA[parts[1]
+p[1]
+
+parts[1 2 3 4, 5 6 7 8, 9 8 7 6]
+p[1, 2, 3, 4]
+p[5, 6, 7, 8]
+p[9, 8, 7, 6]
+
+parts[1 2 3, 4 5 6, 7 8 9]
+p[1, 2, 3]
+p[4, 5, 6]
+p[7, 8, 9]
+
+parts[89 1903 3, 18 3 1, 9 4 800]
+p[89, 1903, 3]
+p[18, 3, 1]
+p[9, 4, 800]
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IsbnVerifierTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-06-14T10:23:58" hostname="MELIS-PC" time="0.077">
+  <properties/>
+  <testcase name="invalid | empty" classname="IsbnVerifierTest" time="0.054"/>
+  <testcase name="invalid | X is only valid as check digit" classname="IsbnVerifierTest" time="0.005"/>
+  <testcase name="invalid | too long and no dashes" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="valid | without separating dashes and X as check digit" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="valid | without separating dashes" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="invalid | check digit of X is not used for 0" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="invalid | check digit is character other than X" classname="IsbnVerifierTest" time="0.002"/>
+  <testcase name="invalid | input is 9 characters" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="invalid | without check digit" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="invalid | too long but contains valid isbn" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="valid | check digit is 10" classname="IsbnVerifierTest" time="0.001"/>
+  <testcase name="invalid | prohibited characters are not ignored" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="invalid | forbidden character" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="invalid | check digit" classname="IsbnVerifierTest" time="0.003"/>
+  <testcase name="invalid | too short" classname="IsbnVerifierTest" time="0.0"/>
+  <testcase name="valid | reguar isbn" classname="IsbnVerifierTest" time="0.002"/>
+  <testcase name="invalid | without check digit and dashes" classname="IsbnVerifierTest" time="0.0"/>
+  <system-out><![CDATA[130
+175
+1147
+1203
+1215
+130
+175
+1147
+1203
+1215
+1220
+1240
+1240
+1254
+1264
+264
+130
+175
+1147
+1203
+1215
+1220
+1240
+1240
+1256
+1264
+264
+130
+175
+1147
+1203
+1215
+1220
+1240
+1243
+1253
+1263
+263
+130
+175
+1147
+1203
+1215
+1220
+1240
+1240
+1254
+130
+175
+1147
+1203
+1215
+1220
+1240
+1240
+1254
+1264
+264
+130
+139
+163
+177
+130
+175
+1147
+1203
+130
+175
+1147
+1203
+1215
+1220
+1240
+1240
+1256
+1265
+265
+130
+175
+1147
+1203
+1215
+1220
+1240
+1240
+1256
+1264
+264
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WordyTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-06-12T09:04:16" hostname="MELIS-PC" time="0.065">
+  <properties/>
+  <testcase name="subtraction" classname="WordyTest" time="0.03"/>
+  <testcase name="multiple division" classname="WordyTest" time="0.003"/>
+  <testcase name="addition" classname="WordyTest" time="0.002"/>
+  <testcase name="addition with negative numbers" classname="WordyTest" time="0.002"/>
+  <testcase name="more addition" classname="WordyTest" time="0.002"/>
+  <testcase name="multiple subtraction" classname="WordyTest" time="0.004"/>
+  <testcase name="division" classname="WordyTest" time="0.003"/>
+  <testcase name="multiple additions" classname="WordyTest" time="0.003"/>
+  <testcase name="multiple multiplication" classname="WordyTest" time="0.005"/>
+  <testcase name="just a number" classname="WordyTest" time="0.001"/>
+  <testcase name="multiplication" classname="WordyTest" time="0.003"/>
+  <testcase name="addition and subtraction" classname="WordyTest" time="0.003"/>
+  <system-out><![CDATA[result0result0result0result0result0result0result0result0Arg4
+result4m4
+m4
+m4
+m4
+m4
+m4
+m4
+m4
+Arg-12
+m16
+m16
+result0result0result0result0result0result0result0result0result0Arg-12
+result-12d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+d -12
+Arg2
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+d -6
+Arg-3
+d 2
+d 2
+result0result0result0result0result0result0result0result0Arg1
+result1p1
+p1
+p1
+p1
+p1
+p1
+Arg1
+p2
+p2
+result0result0result0result0result0result0result0result0result0Arg-1
+result-1p-1
+p-1
+p-1
+p-1
+p-1
+p-1
+p-1
+Arg-10
+p-11
+p-11
+result0result0result0result0result0result0result0result0Arg53
+result53p53
+p53
+p53
+p53
+p53
+p53
+Arg2
+p55
+p55
+result0result0result0result0result0result0result0result0Arg20
+result20m20
+m20
+m20
+m20
+m20
+m20
+m20
+Arg4
+m16
+m16
+m16
+m16
+m16
+m16
+m16
+m16
+Arg13
+m3
+m3
+result0result0result0result0result0result0result0result0Arg33
+result33d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+d 33
+Arg-3
+d -11
+d -11
+result0result0result0result0result0result0result0result0Arg1
+result1p1
+p1
+p1
+p1
+p1
+p1
+Arg1
+p2
+p2
+p2
+p2
+p2
+p2
+p2
+Arg1
+p3
+p3
+result0result0result0result0result0result0result0result0Arg2
+result2mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+mu2
+Arg-2
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+mu-4
+Arg3
+mu-12
+mu-12
+result0result0result0result0result0result0result0result0Arg5
+result55
+result0result0result0result0result0result0result0result0result0Arg-3
+result-3mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+mu-3
+Arg25
+mu-75
+mu-75
+result0result0result0result0result0result0result0result0Arg1
+result1p1
+p1
+p1
+p1
+p1
+p1
+Arg5
+p6
+p6
+p6
+p6
+p6
+p6
+p6
+p6
+p6
+Arg-2
+p4
+p4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

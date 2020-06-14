@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class LuhnTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class LuhnTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; LuhnTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">17</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">1</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.079s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">invalid | Canadian</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | a single zero</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | ascii value for non-doubled non-digit at the start</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | ascii value for non-doubled non-digit in the middle</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | credit card</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | non-digit at the end of valid</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | punctuation in valid</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | single digit</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | single zero with space</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalid | symbols in valid</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">valid | Canadian</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">valid | even amount of digits</td>
+<td class="success">0.057s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">valid | input digit 9</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">valid | many zeros</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">valid | odd amount of spaces</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">valid | simple reversable</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">valid | simple unreversable</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>str09524578
+7
+str09528578
+8
+str09128578
+1
+str09128578
+0
+s0
+s9
+s10
+s12
+s20
+s25
+s32
+s40
+str055#444$275
+7
+str055#444-275
+-
+str055#484-275
+8
+str055-484-275
+-
+str015-484-275
+1
+s0
+s1
+s6
+s5
+s9
+s17
+s21
+s20
+s22
+s29
+s34
+str055444275
+7
+str055448275
+8
+str055848275
+8
+str015848275
+1
+s0
+s1
+s6
+s14
+s18
+s26
+s28
+s35
+s40
+str00000
+0
+str00000
+0
+s0
+s0
+s0
+s0
+s0
+str055b444275
+7
+str055b448275
+8
+str055b848275
+8
+str051b848275
+1
+str051b848275
+0
+s0
+s5
+s6
+s17
+s25
+s29
+s37
+s39
+s46
+s51
+str234567891264
+6
+str234567892264
+2
+str234567792264
+7
+str234537792264
+3
+str238537792264
+8
+str438537792264
+4
+s4
+s7
+s15
+s20
+s23
+s30
+s37
+s46
+s48
+s50
+s56
+s60
+str019
+1
+s0
+s1
+s10
+str055444276
+7
+str055448276
+8
+str055848276
+8
+str015848276
+1
+s0
+s1
+s6
+s14
+s18
+s26
+s28
+s35
+s41
+str055-444-275
+7
+str055-444-275
+-
+str055-484-275
+8
+str055-484-275
+-
+str015-484-275
+1
+s0
+s1
+s6
+s5
+s9
+s17
+s21
+s20
+s22
+s29
+s34
+str059a
+9
+str059a
+0
+s0
+s5
+s14
+s24
+str8273123273520539
+3
+str8273123273520539
+0
+str8273123273120539
+1
+str8273123253120539
+5
+str8273126253120539
+6
+str8273226253120539
+2
+str8253226253120539
+5
+str7253226253120539
+7
+s7
+s9
+s14
+s17
+s19
+s21
+s27
+s29
+s34
+s37
+s38
+s40
+s40
+s45
+s48
+s57
+str19
+1
+s1
+s10
+str-9
+-
+s-1
+s8
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Jun. 12, 2020, 12:44:51 p.m.</p>
+</div>
+</div>
+</body>
+</html>

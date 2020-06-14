@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AtbashTest$EncodeTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-13T13:55:55" hostname="MELIS-PC" time="0.023">
+  <properties/>
+  <testcase name="test[0: encode(yes) = bvh]" classname="AtbashTest$EncodeTest" time="0.02"/>
+  <testcase name="test[1: encode(no) = ml]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[2: encode(OMG) = lnt]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[3: encode(O M G) = lnt]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[4: encode(mindblowingly) = nrmwy oldrm tob]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[5: encode(Testing,1 2 3, testing.) = gvhgr mt123 gvhgr mt]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[6: encode(Truth is fiction.) = gifgs rhurx grlm]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[7: encode(The quick brown fox jumps over the lazy dog.) = gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

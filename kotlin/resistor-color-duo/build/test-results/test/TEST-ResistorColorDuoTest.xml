@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ResistorColorDuoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-11T04:43:25" hostname="MELIS-PC" time="0.022">
+  <properties/>
+  <testcase name="ignore additional colors" classname="ResistorColorDuoTest" time="0.021"/>
+  <testcase name="yellow and violet" classname="ResistorColorDuoTest" time="0.0"/>
+  <testcase name="brown and black" classname="ResistorColorDuoTest" time="0.0"/>
+  <testcase name="blue and grey" classname="ResistorColorDuoTest" time="0.0"/>
+  <testcase name="orange and orange" classname="ResistorColorDuoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

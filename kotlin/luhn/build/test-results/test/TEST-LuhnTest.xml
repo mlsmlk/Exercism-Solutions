@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LuhnTest" tests="17" skipped="1" failures="0" errors="0" timestamp="2020-06-12T16:44:51" hostname="MELIS-PC" time="0.081">
+  <properties/>
+  <testcase name="valid | even amount of digits" classname="LuhnTest" time="0.057"/>
+  <testcase name="invalid | symbols in valid" classname="LuhnTest" time="0.002"/>
+  <testcase name="invalid | a single zero" classname="LuhnTest" time="0.001"/>
+  <testcase name="invalid | single zero with space" classname="LuhnTest" time="0.0"/>
+  <testcase name="valid | Canadian" classname="LuhnTest" time="0.002"/>
+  <testcase name="valid | many zeros" classname="LuhnTest" time="0.001"/>
+  <testcase name="invalid | ascii value for non-doubled non-digit in the middle" classname="LuhnTest" time="0.002"/>
+  <testcase name="valid | odd amount of spaces" classname="LuhnTest" time="0.002"/>
+  <testcase name="valid | simple reversable" classname="LuhnTest" time="0.0"/>
+  <testcase name="invalid | Canadian" classname="LuhnTest" time="0.002"/>
+  <testcase name="valid | input digit 9" classname="LuhnTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="invalid | punctuation in valid" classname="LuhnTest" time="0.002"/>
+  <testcase name="invalid | single digit" classname="LuhnTest" time="0.0"/>
+  <testcase name="invalid | non-digit at the end of valid" classname="LuhnTest" time="0.001"/>
+  <testcase name="invalid | credit card" classname="LuhnTest" time="0.003"/>
+  <testcase name="valid | simple unreversable" classname="LuhnTest" time="0.002"/>
+  <testcase name="invalid | ascii value for non-doubled non-digit at the start" classname="LuhnTest" time="0.001"/>
+  <system-out><![CDATA[str09524578
+7
+str09528578
+8
+str09128578
+1
+str09128578
+0
+s0
+s9
+s10
+s12
+s20
+s25
+s32
+s40
+str055#444$275
+7
+str055#444-275
+-
+str055#484-275
+8
+str055-484-275
+-
+str015-484-275
+1
+s0
+s1
+s6
+s5
+s9
+s17
+s21
+s20
+s22
+s29
+s34
+str055444275
+7
+str055448275
+8
+str055848275
+8
+str015848275
+1
+s0
+s1
+s6
+s14
+s18
+s26
+s28
+s35
+s40
+str00000
+0
+str00000
+0
+s0
+s0
+s0
+s0
+s0
+str055b444275
+7
+str055b448275
+8
+str055b848275
+8
+str051b848275
+1
+str051b848275
+0
+s0
+s5
+s6
+s17
+s25
+s29
+s37
+s39
+s46
+s51
+str234567891264
+6
+str234567892264
+2
+str234567792264
+7
+str234537792264
+3
+str238537792264
+8
+str438537792264
+4
+s4
+s7
+s15
+s20
+s23
+s30
+s37
+s46
+s48
+s50
+s56
+s60
+str019
+1
+s0
+s1
+s10
+str055444276
+7
+str055448276
+8
+str055848276
+8
+str015848276
+1
+s0
+s1
+s6
+s14
+s18
+s26
+s28
+s35
+s41
+str055-444-275
+7
+str055-444-275
+-
+str055-484-275
+8
+str055-484-275
+-
+str015-484-275
+1
+s0
+s1
+s6
+s5
+s9
+s17
+s21
+s20
+s22
+s29
+s34
+str059a
+9
+str059a
+0
+s0
+s5
+s14
+s24
+str8273123273520539
+3
+str8273123273520539
+0
+str8273123273120539
+1
+str8273123253120539
+5
+str8273126253120539
+6
+str8273226253120539
+2
+str8253226253120539
+5
+str7253226253120539
+7
+s7
+s9
+s14
+s17
+s19
+s21
+s27
+s29
+s34
+s37
+s38
+s40
+s40
+s45
+s48
+s57
+str19
+1
+s1
+s10
+str-9
+-
+s-1
+s8
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

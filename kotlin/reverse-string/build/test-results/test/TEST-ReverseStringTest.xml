@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReverseStringTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-06-11T13:19:38" hostname="MELIS-PC" time="0.029">
+  <properties/>
+  <testcase name="single word" classname="ReverseStringTest" time="0.025"/>
+  <testcase name="sentence with punctuation" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="even-sized word" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="capitalized word" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="empty string" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="apply twice" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="palindrome word" classname="ReverseStringTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

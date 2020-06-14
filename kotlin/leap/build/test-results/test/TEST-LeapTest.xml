@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LeapTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-11T13:17:48" hostname="MELIS-PC" time="0.024">
+  <properties/>
+  <testcase name="not leap | divisible by 200, not divisible by 400" classname="LeapTest" time="0.021"/>
+  <testcase name="not leap | divisible by 100 but not by 3" classname="LeapTest" time="0.0"/>
+  <testcase name="not leap | divisible by 2, not divisible by 4" classname="LeapTest" time="0.0"/>
+  <testcase name="leap | divisible by 4, not divisible by 100" classname="LeapTest" time="0.001"/>
+  <testcase name="not leap | not divisible by 4" classname="LeapTest" time="0.0"/>
+  <testcase name="not leap | divisible by 100, not divisible by 400" classname="LeapTest" time="0.0"/>
+  <testcase name="leap | divisible by 400 but not by 125" classname="LeapTest" time="0.0"/>
+  <testcase name="leap | divisible by 400" classname="LeapTest" time="0.0"/>
+  <testcase name="leap | divisible by 4 and 5" classname="LeapTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

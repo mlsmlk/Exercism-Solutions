@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AtbashTest$DecodeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-13T13:55:56" hostname="MELIS-PC" time="0.002">
+  <properties/>
+  <testcase name="test[0: decode(vcvix rhn) = exercism]" classname="AtbashTest$DecodeTest" time="0.001"/>
+  <testcase name="test[1: decode(zmlyh gzxov rhlug vmzhg vkkrm thglm v) = anobstacleisoftenasteppingstone]" classname="AtbashTest$DecodeTest" time="0.0"/>
+  <testcase name="test[2: decode(gvhgr mt123 gvhgr mt) = testing123testing]" classname="AtbashTest$DecodeTest" time="0.0"/>
+  <testcase name="test[3: decode(gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt) = thequickbrownfoxjumpsoverthelazydog]" classname="AtbashTest$DecodeTest" time="0.001"/>
+  <testcase name="test[4: decode(vc vix    r hn) = exercism]" classname="AtbashTest$DecodeTest" time="0.0"/>
+  <testcase name="test[5: decode(zmlyhgzxovrhlugvmzhgvkkrmthglmv) = anobstacleisoftenasteppingstone]" classname="AtbashTest$DecodeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
