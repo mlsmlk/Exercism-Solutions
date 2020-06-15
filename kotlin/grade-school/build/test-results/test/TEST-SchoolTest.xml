@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SchoolTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-06-15T09:10:01" hostname="MELIS-PC" time="0.046">
+  <properties/>
+  <testcase name="grade returns an empty list if there are no students in that grade" classname="SchoolTest" time="0.025"/>
+  <testcase name="student names with grades are displayed in the same sorted roster" classname="SchoolTest" time="0.018"/>
+  <testcase name="adding more student adds them to the sorted roster" classname="SchoolTest" time="0.0"/>
+  <testcase name="grade returns the students in that grade in alphabetical order" classname="SchoolTest" time="0.0"/>
+  <testcase name="roster returns an empty list if there are no students enrolled" classname="SchoolTest" time="0.001"/>
+  <testcase name="adding a student adds them to the sorted roster" classname="SchoolTest" time="0.0"/>
+  <testcase name="adding students to different grades adds them to the same sorted roster" classname="SchoolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
